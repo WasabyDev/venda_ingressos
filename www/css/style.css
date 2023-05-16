@@ -1,2 +1,202 @@
-/**/
+/*molde dos quadrados*/
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linha{
+    display: flex;
+}
 
+.quadrado1{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: black;
+}
+
+.quadrado2{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: black;
+}
+
+.quadrado3{
+    width: 34px;
+    height: 30px;
+    margin: 1px;
+    background-color: black;
+}
+
+.quadrado4{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: black;
+}
+
+.quadrado5{
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    background-color: black;
+}
+
+
+  .span {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 40px;
+      text-align: center;
+  } 
+
+  .linha-com-numeros {
+      display: flex;
+      align-items: center;
+  }
+
+  .linha-com-numeros span {
+      margin-right: 9px;
+  }
+
+  .title1 {
+      text-align: center;
+  }
+
+  .numero {
+      display: inline-block;
+      width: 29px;
+      text-align: center;
+  }
+  /*lista de ingressos*/
+
+  .quadrado01{
+      width: 40px;
+      height: 40px;
+      background-color: blue;
+  }
+
+  .quadrado02{
+      width: 40px;
+      height: 40px;
+      background-color: red;
+  }
+  
+  .quadrado03{
+      width: 40px;
+      height: 40px;
+      background-color: orange;
+  }
+
+  .quadrado04{
+      width: 40px;
+      height: 40px;
+      background-color: brown;
+  }
+
+  .quadrado05{
+      width: 40px;
+      height: 40px;
+      background-color: green;
+  }
+
+/*hovers*/
+.quadrado1:hover{
+    background-color: transparent  ;
+}
+
+.quadrado2:hover{
+    background-color: transparent  ;
+}
+
+.quadrado3:hover{
+    background-color: transparent  ;
+}
+
+.quadrado4:hover{
+    background-color: transparent  ;
+}
+
+.quadrado5:hover{
+    background-color: transparent  ;
+}
+/*border*/
+.quadrado1{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: green;
+}
+
+.quadrado2{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: brown;
+}
+
+.quadrado3{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: blue;
+}
+
+.quadrado4{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: red;
+}
+
+.quadrado5{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: orange;
+}
+
+/*border de valor*/
+.quadrado01{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado02{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado03{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado04{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado05{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.concluir{
+    border-radius: 20px;
+}
+
+/*Botão concluir*/
+
+
+.concluir{
+    width: 200px;
+    height: 50px;
+    background-color: lime;
+}
