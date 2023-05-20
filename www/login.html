@@ -1,11 +1,12 @@
- <html>
+<!DOCTYPE HTML>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
-    <script src="components/loader.js"></script><style>
-     <link rel="stylesheet" href="css/style.css">
+    <script src="components/loader.js"></script>
+ <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -61,8 +62,7 @@
       <input type="submit" value="Login">
     </form>
     <p class="error" id="errorMsg"></p>
-  </div>
-</body>
+
     <script>
       // Função para verificar o login e redirecionar para a página cinema.html
       document.getElementById("loginForm").addEventListener("submit", function(event) {
@@ -86,3 +86,5 @@
       });
     </script>
   </div>
+</body>
+</html>
