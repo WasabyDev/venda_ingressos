@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
     <link rel="stylesheet" href="components/loader.css">
-    <script src="components/loader.js"></script>
-       <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <style>
 .input{
@@ -28,9 +27,9 @@
 </head>
 <body>
     <center>
-    <div class="div1">
-<h1>Login</h1>
-<input class="input"  type="text" id="novonome" placeholder="Nome de Usuário"><br><br>
+<div class="divacento">
+    <h1> Cadastrar Acento </h1>
+    <input class="input" type="text" id="novonome" placeholder="Nome Usuário"><br><br>
 <input class="input" type="password" id="novasenha" placeholder="Senha"><br><br>
  <a href="cinema.html"><button class="botao" onclick="register()" id="calcular">Cadastrar</button> </a>
     </div>
@@ -41,12 +40,12 @@ function register() {
   var novonome = document.getElementById("novonome").value;
   var novasenha = document.getElementById("novasenha").value;
   if (localStorage.getItem(novonome)) {
-    alert("Esse nome de usuário já existe!");
+    alert("Este acento ja esta cadastrado no nome de " + novonome);
   } else {
     localStorage.setItem(novonome, novasenha);
-    alert("Login realizado com sucesso!");
+    alert("O acento foi cadastrado no nome de " + novonome);
   }
 }
-        </script>
+</script>
 </body>
 </html>

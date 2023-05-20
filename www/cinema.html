@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="components/loader.css">
     <script src="components/loader.js"></script>
      <link rel="stylesheet" href="css/style.css">
+      <style>
+    body {
+        background-color:  rgb(168, 219, 255);
+    }
+
+      .input{
+        border: none;
+        border-radius: 5px;
+        background-color: #ffff ;
+    }
+    </style>
 </head>
 <body>
 <h1 class="title1">Escolha seu assento</h1>
@@ -14,50 +25,50 @@
     <div class="linha-com-numeros">
     <span>A</span>
     <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div></div>
+    <div id="quadradinho02" class="quadrado1"></div>
+    <div id="quadradinho03" class="quadrado1"></div>
+    <div id="quadradinho04" class="quadrado1"></div>
+    <div id="quadradinho05" class="quadrado1"></div></div>
     
     <div class="linha-com-numeros">
         <span>B</span>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div>
-    <div id="quadradinho01" class="quadrado1"></div></div>
+    <div id="quadradinho06" class="quadrado1"></div>
+    <div id="quadradinho07" class="quadrado1"></div>
+    <div id="quadradinho08" class="quadrado1"></div>
+    <div id="quadradinho09" class="quadrado1"></div>
+    <div id="quadradinho010" class="quadrado1"></div></div>
 
     <div class="linha-com-numeros">
         <span>C</span>
-    <div id="quadradinho02" class="quadrado2"></div>
-    <div id="quadradinho02" class="quadrado2"></div>
-    <div id="quadradinho02" class="quadrado2"></div>
-    <div id="quadradinho02" class="quadrado2"></div>
-    <div id="quadradinho02" class="quadrado2"></div></div>
+    <div id="quadradinho011" class="quadrado2"></div>
+    <div id="quadradinho012" class="quadrado2"></div>
+    <div id="quadradinho013" class="quadrado2"></div>
+    <div id="quadradinho014" class="quadrado2"></div>
+    <div id="quadradinho015" class="quadrado2"></div></div>
 
     <div class="linha-com-numeros">
         <span>D</span>
-    <div id="quadradinho03" class="quadrado3"></div>
-    <div id="quadradinho03" class="quadrado3"></div>
-    <div id="quadradinho04" class="quadrado4"></div>
-    <div id="quadardinho05" class="quadrado5"></div>
-    <div id="quadardinho05" class="quadrado5"></div>
-    <div id="quadardinho05" class="quadrado5"></div>
-    <div id="quadradinho04" class="quadrado4"></div>
-    <div id="quadradinho03" class="quadrado3"></div>
-    <div id="quadradinho03" class="quadrado3"></div></div>
+    <div id="quadradinho016" class="quadrado3"></div>
+    <div id="quadradinho017" class="quadrado3"></div>
+    <div id="quadradinho018" class="quadrado4"></div>
+    <div id="quadardinho019" class="quadrado5"></div>
+    <div id="quadardinho020" class="quadrado5"></div>
+    <div id="quadardinho021" class="quadrado5"></div>
+    <div id="quadradinho022" class="quadrado4"></div>
+    <div id="quadradinho023" class="quadrado3"></div>
+    <div id="quadradinho024" class="quadrado3"></div></div>
 
     <div class="linha-com-numeros">
         <span>E</span>
-    <div id="quadradinho03" class="quadrado3"></div>
-    <div id="quadradinho03" class="quadrado3"></div>
-    <div id="quadradinho04" class="quadrado4"></div>
-    <div id="quadradinho05" class="quadrado5"></div>
-    <div id="quadradinho05" class="quadrado5"></div>
-    <div id="quadradinho05" class="quadrado5"></div>
-    <div id="quadradinho04" class="quadrado4"></div>
-    <div id="quadradinho03"class="quadrado3"></div>
-    <div id="quadradinho03" class="quadrado3"></div></div>
+    <div id="quadradinho025" class="quadrado3"></div>
+    <div id="quadradinho026" class="quadrado3"></div>
+    <div id="quadradinho027" class="quadrado4"></div>
+    <div id="quadradinho028" class="quadrado5"></div>
+    <div id="quadradinho029" class="quadrado5"></div>
+    <div id="quadradinho030" class="quadrado5"></div>
+    <div id="quadradinho031" class="quadrado4"></div>
+    <div id="quadradinho032"class="quadrado3"></div>
+    <div id="quadradinho033" class="quadrado3"></div></div>
 
     <div class="linha-com-numeros">
         <span>&nbsp;</span><span
@@ -70,24 +81,113 @@
         class="numero">7</span><span
         class="numero">8</span><span
         class="numero">9</span></div></div>
-
+<center>
         <div><h1 class="ingressos">Lista de ingressos</h1>
 
         <h3><div class="quadrado01"></div><span class="letra">Este lugar custa 10,00 Reais</span></h3>
-
         <h3><div class="quadrado02"></div><span class="letra">Este lugar custa 12,00 Reais</span></h3>
-        
         <h3><div class="quadrado03"></div><span class="letra">Este lugar custa 15,00 Reais</span></h3>
-
         <h3><div class="quadrado04"></div><span class="letra">Este lugar custa 20,00 Reais</span></h3>
-
         <h3><div class="quadrado05"></div><span class="letra">Este lugar custa 25,00 Reais</span></h3></div>
-        
+
+        <a href="acentos.html"><button class="botao" id="calcular">Acentos Cadastados</button> </a>
+</center>
 
     <script> 
-    var quadradinho = document.getElementById("quadradinho01");
+       var quadradinho = document.getElementById("quadradinho01");
     quadradinho.onclick = function() {
-    window.location.href = "css/cadastro.html";
+    window.location.href = "cadastro.html";
+    };
+    
+        var quadradinho = document.getElementById("quadradinho02");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho03");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho04");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho05");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho06");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho07");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho08");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho09");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho010");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho011");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+          var quadradinho = document.getElementById("quadradinho012");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+    
+        var quadradinho = document.getElementById("quadradinho013");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho014");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho015");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho016");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho017");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho018");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho019");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho020");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho021");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+        var quadradinho = document.getElementById("quadradinho022");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
+    };
+   
+       var quadradinho = document.getElementById("quadradinho023");
+    quadradinho.onclick = function() {
+    window.location.href = "cadastro.html";
     };
   </script>
 </body>

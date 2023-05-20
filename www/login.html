@@ -50,6 +50,7 @@
   </style>
 </head>
 <body>
+    <center>
   <div class="container">
     <h2>Tela de Login</h2>
     <form id="loginForm">
@@ -62,7 +63,8 @@
       <input type="submit" value="Login">
     </form>
     <p class="error" id="errorMsg"></p>
-
+  </div>
+</center>
     <script>
       // Função para verificar o login e redirecionar para a página cinema.html
       document.getElementById("loginForm").addEventListener("submit", function(event) {
@@ -82,9 +84,13 @@
           // Exibe uma mensagem de erro
           var errorMsg = document.getElementById("errorMsg");
           errorMsg.innerHTML = "Usuário não cadastrado.";
+
+
+
+
+          alert("Acento Cadastrado");
         }
       });
     </script>
-  </div>
 </body>
 </html>

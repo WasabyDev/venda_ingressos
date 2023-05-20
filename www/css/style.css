@@ -103,23 +103,23 @@
 
 /*hovers*/
 .quadrado1:hover{
-    background-color: transparent  ;
+    background-color: #ffff  ;
 }
 
 .quadrado2:hover{
-    background-color: transparent  ;
+    background-color: #ffff  ;
 }
 
 .quadrado3:hover{
-    background-color: transparent  ;
+    background-color: #ffff  ;
 }
 
 .quadrado4:hover{
-    background-color: transparent  ;
+    background-color: #ffff  ;
 }
 
 .quadrado5:hover{
-    background-color: transparent  ;
+    background-color: #ffff ;
 }
 /*border*/
 .quadrado1{
@@ -187,4 +187,36 @@
     border-color: black;
     border-width: 3px;
 }
+
+  .div1 {
+      background-color: rgb(168, 219, 255);
+      padding: 20px;
+      width: 300px;
+      height: 300px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(5, 5, 5, 0.54);
+      align-items: center;
+    }
+
+    .input{
+        border: none;
+        border-radius: 5px;
+        background-color: #ffff ;
+    }
+
+      .divacento {
+      background-color: rgb(168, 219, 255);
+      padding: 20px;
+      width: 300px;
+      height: 300px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(5, 5, 5, 0.54);
+      align-items: center;
+    }
+
+     .input{
+        border: none;
+        border-radius: 5px;
+        background-color: #ffff ;
+    }
 
